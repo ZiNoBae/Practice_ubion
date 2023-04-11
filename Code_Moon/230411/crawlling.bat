@@ -1,1 +1,1 @@
-python crawlling.py
+python C:\Users\zino0\Documents\GitHub\Practice_ubion\Code_Moon\230411\crawlling.bat
