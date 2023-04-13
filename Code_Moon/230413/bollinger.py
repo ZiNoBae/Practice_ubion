@@ -46,10 +46,10 @@ class Invest :
 
 
     def add_trade(self) :
-        # 기준이 되는 컬럼이 무엇인가 ? 
-        # 기준이 되는 컬럼은 컬럼 중에 첫번째 이기 때문 : self.df.columns[0]
+        # # 기준이 되는 컬럼이 무엇인가 ? 
+        # # 기준이 되는 컬럼은 컬럼 중에 첫번째 이기 때문 : self.df.columns[0]
         
-        self.col = self.df.columns[0]
+        # self.col = self.df.columns[0] <- 클래스 선언이후 의미 없음 
 
         # trade 파생변수 생성 
         self.df['trade'] = ""
@@ -87,7 +87,7 @@ class Invest :
 
     def add_rtn(self) :
 
-        self.col = self.df.columns[0]
+        # self.col = self.df.columns[0] <- 클래스 선언 이후 무의미 
 
         
         rtn = 1.0
